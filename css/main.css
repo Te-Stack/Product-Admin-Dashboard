@@ -35,5 +35,30 @@ body {
   margin: 0 auto;
   filter: grayscale(1);
 }
+.wrapper .side-nav .menu ul li a .stroke {
+  height: 1.7em;
+  width: 3px;
+  border-radius: 6px;
+  background-color: #01565b;
+  position: absolute;
+  right: 0;
+  top: 0;
+  overflow: hidden;
+  display: none;
+}
+.wrapper .side-nav .menu ul li a .stroke .half {
+  display: block;
+  height: 50%;
+  width: inherit;
+  background-color: #5aba8a;
+  position: absolute;
+  bottom: 0;
+}
+.wrapper .side-nav .menu ul li.active a img {
+  filter: grayscale(0);
+}
+.wrapper .side-nav .menu ul li.active a .stroke {
+  display: block;
+}
 
 /*# sourceMappingURL=main.css.map */
