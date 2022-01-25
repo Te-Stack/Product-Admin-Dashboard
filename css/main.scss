@@ -98,23 +98,38 @@ body{
                 .title{
 
                     h1{
-                        font-family: $main-font;
-                        font-size: 2.15em;
-                        font-weight: 600;
+                        @include setFont($main-font, 2.15em, 600);
                         text-transform: capitalize;
                         color: $secondary-text;
                         line-height: 1.2em;
                     }
 
                     span{
-                        font-family: $main-font;
-                        font-size: 1em;
-                        font-weight: 500;
+                        @include setFont($main-font, 1em, 500);
                         display: block;
                         color: $primary-text;
                         margin-top: 1em;
                     }
                     
+                }
+
+                .search-bar{
+                    .grp{
+                        position: relative;
+
+                        img{
+                            height: 0.5em;
+                            display: inline-block;
+                            position: absolute;
+                            left: 0;
+                            top: 50%;
+                            transform: translate(0,-50%);
+                        }
+
+                        input{
+
+                        }
+                    }
                 }
             }
             

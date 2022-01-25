@@ -87,5 +87,16 @@ body {
   color: #627f83;
   margin-top: 1em;
 }
+.wrapper .content .main header .search-bar .grp {
+  position: relative;
+}
+.wrapper .content .main header .search-bar .grp img {
+  height: 0.5em;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+}
 
 /*# sourceMappingURL=main.css.map */
