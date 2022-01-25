@@ -12,3 +12,22 @@
     flex-direction: $direction;
 }
 
+
+@mixin setProbarChild($bgval, $colorVal, $chartFill, $chartTransform, $timeBG) {
+        background-color: $bgval;
+       color: $colorVal;
+
+        .chart{
+             svg{
+              fill: $chartFill;
+            transform:$chartTransform;
+                 }
+           }
+
+        .time-area{
+                &::before{
+                    background-color: $timeBG;
+                        }
+        }
+    
+}

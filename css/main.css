@@ -122,6 +122,28 @@ body {
   border-radius: 1em;
   box-shadow: 0 6px 10px rgba(1, 86, 91, 0.05);
 }
+.wrapper .content .main .dashboard-area .productivity-listing .pro-bar:nth-child(2) {
+  background-color: #5aba8a;
+  color: #fafafa;
+}
+.wrapper .content .main .dashboard-area .productivity-listing .pro-bar:nth-child(2) .chart svg {
+  fill: #e2f297;
+  transform: scale(-1, 1);
+}
+.wrapper .content .main .dashboard-area .productivity-listing .pro-bar:nth-child(2) .time-area::before {
+  background-color: #e2f297;
+}
+.wrapper .content .main .dashboard-area .productivity-listing .pro-bar:nth-child(3) {
+  background-color: #01565b;
+  color: #fafafa;
+}
+.wrapper .content .main .dashboard-area .productivity-listing .pro-bar:nth-child(3) .chart svg {
+  fill: #e2f297;
+  transform: scale(-1, 1) rotate(180deg);
+}
+.wrapper .content .main .dashboard-area .productivity-listing .pro-bar:nth-child(3) .time-area::before {
+  background-color: #627f83;
+}
 .wrapper .content .main .dashboard-area .percent-area {
   display: flex;
   justify-content: start;

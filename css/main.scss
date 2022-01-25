@@ -151,6 +151,14 @@ body{
                         box-sizing: border-box;
                         border-radius: 1em;
                         box-shadow: 0 6px 10px rgb(1 86 91 / 5%);
+
+                        &:nth-child(2){
+                            @include setProbarChild($normal-green, $background-white, $light-green, scale(-1,1), $light-green);
+                            
+                        }
+                        &:nth-child(3){
+                            @include setProbarChild($dark-blue, $background-white, $light-green, scale(-1,1) rotate(180deg), $primary-text);
+                        }
                     }
 
                 }
