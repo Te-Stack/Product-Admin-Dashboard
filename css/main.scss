@@ -63,6 +63,12 @@ body{
                         }
                     }
 
+                    &:hover {
+                        img{
+                            filter: grayscale(0);
+                        }
+                    }
+
                     &.active{
                         a{
                             img{

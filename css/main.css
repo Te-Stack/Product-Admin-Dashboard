@@ -54,6 +54,9 @@ body {
   position: absolute;
   bottom: 0;
 }
+.wrapper .side-nav .menu ul li:hover img {
+  filter: grayscale(0);
+}
 .wrapper .side-nav .menu ul li.active a img {
   filter: grayscale(0);
 }
