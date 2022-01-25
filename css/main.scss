@@ -92,7 +92,31 @@ body{
         .main{
             height: 100vh;
             padding: 2.5em 3em 0em 3em;
-            border-right: 2px solid $lighter-grey
+            border-right: 2px solid $lighter-grey;
+
+            header{
+                .title{
+
+                    h1{
+                        font-family: $main-font;
+                        font-size: 2.15em;
+                        font-weight: 600;
+                        text-transform: capitalize;
+                        color: $secondary-text;
+                        line-height: 1.2em;
+                    }
+
+                    span{
+                        font-family: $main-font;
+                        font-size: 1em;
+                        font-weight: 500;
+                        display: block;
+                        color: $primary-text;
+                        margin-top: 1em;
+                    }
+                    
+                }
+            }
             
         }
 
