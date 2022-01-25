@@ -238,6 +238,37 @@ body{
 
 
                 }
+
+                .time-area{
+                    @include setFlex(flex,flex-start,flex-start,initial);
+                    width: 48%;
+                    position: relative;
+
+                    .grp{
+                        margin: 1em;
+                    
+                        .title{
+                            @include setFont($main-font, .775em, 600);
+
+                        }
+                        .time{
+                            @include setFont($main-font, 1em, 700);
+                            display: block;
+
+
+                        }
+                    }
+
+                    &::before{
+                        content: "";
+                        position: absolute;
+                        height: 50%;
+                        width: 1px;
+                        top: 50%;
+                        transform: translate(0, -50%);
+                        background-color: $normal-green;
+                    }
+                }
             }
             
         }

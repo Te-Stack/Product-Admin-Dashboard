@@ -202,5 +202,36 @@ body {
   font-weight: 600;
   color: #082b2f;
 }
+.wrapper .content .main .dashboard-area .time-area {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: initial;
+  width: 48%;
+  position: relative;
+}
+.wrapper .content .main .dashboard-area .time-area .grp {
+  margin: 1em;
+}
+.wrapper .content .main .dashboard-area .time-area .grp .title {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 0.775em;
+  font-weight: 600;
+}
+.wrapper .content .main .dashboard-area .time-area .grp .time {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 1em;
+  font-weight: 700;
+  display: block;
+}
+.wrapper .content .main .dashboard-area .time-area::before {
+  content: "";
+  position: absolute;
+  height: 50%;
+  width: 1px;
+  top: 50%;
+  transform: translate(0, -50%);
+  background-color: #5aba8a;
+}
 
 /*# sourceMappingURL=main.css.map */
