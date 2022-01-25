@@ -170,5 +170,37 @@ body {
   border-radius: 4px;
   transform: translate(0, -50%) rotate(45deg) skew(24deg, 24deg);
 }
+.wrapper .content .main .dashboard-area .percent-area .fancy-chart .chart-title {
+  text-transform: capitalize;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 0.875em;
+  font-weight: 600;
+}
+.wrapper .content .main .dashboard-area .percent-area .fancy-chart .chart {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+  position: relative;
+  top: 0.7em;
+}
+.wrapper .content .main .dashboard-area .percent-area .fancy-chart .chart svg {
+  fill: #01565b;
+  height: 1em;
+  width: 5.6em;
+}
+.wrapper .content .main .dashboard-area .percent-area .fancy-chart .chart .percent-count {
+  display: block;
+  position: relative;
+  left: 1em;
+  bottom: 0.5em;
+  background-color: #fafafa;
+  padding: 3px 9px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  font-size: 0.85em;
+  font-weight: 600;
+  color: #082b2f;
+}
 
 /*# sourceMappingURL=main.css.map */
