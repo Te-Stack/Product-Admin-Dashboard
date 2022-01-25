@@ -63,5 +63,16 @@ body {
 .wrapper .side-nav .menu ul li.active a .stroke {
   display: block;
 }
+.wrapper .content {
+  width: 100%;
+}
+.wrapper .content .main {
+  height: 100vh;
+  background-color: red;
+}
+.wrapper .content .profile-area {
+  height: 100vh;
+  background-color: green;
+}
 
 /*# sourceMappingURL=main.css.map */

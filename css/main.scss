@@ -86,4 +86,19 @@ body{
 
 
     }
+
+    .content{
+        width: 100%;
+        .main{
+            height: 100vh;
+            background-color: red;
+
+        }
+
+        .profile-area{
+            height: 100vh;
+            background-color: green;
+
+        }
+    }
 }
