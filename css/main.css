@@ -91,12 +91,20 @@ body {
   position: relative;
 }
 .wrapper .content .main header .search-bar .grp img {
-  height: 0.5em;
+  height: 1.35em;
   display: inline-block;
   position: absolute;
-  left: 0;
+  left: 15px;
   top: 50%;
   transform: translate(0, -50%);
+}
+.wrapper .content .main header .search-bar .grp input {
+  display: block;
+  padding: 14px 50px 14px 54px;
+  border-radius: 50px;
+  width: 100%;
+  outline: none;
+  background: linear-gradient(90deg, #edf6fb, #f4f7fc);
 }
 
 /*# sourceMappingURL=main.css.map */

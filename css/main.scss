@@ -118,15 +118,21 @@ body{
                         position: relative;
 
                         img{
-                            height: 0.5em;
+                            height: 1.35em;
                             display: inline-block;
                             position: absolute;
-                            left: 0;
+                            left: 15px;
                             top: 50%;
                             transform: translate(0,-50%);
                         }
 
                         input{
+                            display: block;
+                            padding: 14px 50px 14px 54px;
+                            border-radius: 50px;
+                            width: 100%;
+                            outline: none;
+                            background: linear-gradient(90deg, $off-blue, #f4f7fc);
 
                         }
                     }
