@@ -20,8 +20,8 @@ body{
         border-right: 2px solid $lighter-grey;
 
         .logo{
-            margin-bottom: 5em;
-            padding: 2em 0;
+            margin-bottom: 3em;
+            padding: 1em 0;
 
             img{
                 height: 4em;
@@ -32,7 +32,7 @@ body{
         .menu{
             ul{
                 li{
-                    margin-bottom: 3.6em;
+                    margin-bottom: 2.6em;
                     a{
                         display: block;
                         position: relative;
@@ -91,14 +91,13 @@ body{
         width: 100%;
         .main{
             height: 100vh;
-            background-color: red;
-
+            padding: 2.5em 3em 0em 3em;
+            border-right: 2px solid $lighter-grey
+            
         }
 
         .profile-area{
-            height: 100vh;
-            background-color: green;
-
+            
         }
     }
 }
