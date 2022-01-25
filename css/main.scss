@@ -154,6 +154,57 @@ body{
                     }
 
                 }
+                .percent-area{
+                    @include setFlex(flex, start, center, row);
+                    width: 50%;
+
+                    .date-tag{
+                        @include setFlex(flex, initial, center, column);
+                        background-color: $background-white;
+                        padding: .6em 1.25em;
+                        box-sizing: border-box;
+                        border-radius: .7em;
+                        margin-right: 2.5em;
+                        position: relative;
+                        box-shadow: 4px 6px 10px rgba(0,0,0,0.2);
+
+                        .date, .day{
+                            display: block;
+                            position: relative;
+                            z-index: 99;
+                        }
+
+                        .day{
+                            text-transform: capitalize;
+                            font-size: .875em;
+                            font-weight: 500;
+                            color: $primary-text;
+                        }
+
+                        .date{
+                            font-size: 2em;
+                            font-weight: 600;
+                            color: $secondary-text;
+                        }
+
+                        &::after{
+                            content: "";
+                            height: 40px;
+                            width: 40px;
+                            display: block;
+                            background-color: $background-white;
+                            position: absolute;
+                            top: 50%;
+                            right: -18px;
+                            border-radius: 4px;
+                            transform: translate(0, -50%) rotate(45deg) skew(24deg, 24deg);
+                        }
+
+
+                    }
+
+
+                }
             }
             
         }

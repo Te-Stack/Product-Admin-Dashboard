@@ -122,5 +122,53 @@ body {
   border-radius: 1em;
   box-shadow: 0 6px 10px rgba(1, 86, 91, 0.05);
 }
+.wrapper .content .main .dashboard-area .percent-area {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: row;
+  width: 50%;
+}
+.wrapper .content .main .dashboard-area .percent-area .date-tag {
+  display: flex;
+  justify-content: initial;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fafafa;
+  padding: 0.6em 1.25em;
+  box-sizing: border-box;
+  border-radius: 0.7em;
+  margin-right: 2.5em;
+  position: relative;
+  box-shadow: 4px 6px 10px rgba(0, 0, 0, 0.2);
+}
+.wrapper .content .main .dashboard-area .percent-area .date-tag .date, .wrapper .content .main .dashboard-area .percent-area .date-tag .day {
+  display: block;
+  position: relative;
+  z-index: 99;
+}
+.wrapper .content .main .dashboard-area .percent-area .date-tag .day {
+  text-transform: capitalize;
+  font-size: 0.875em;
+  font-weight: 500;
+  color: #627f83;
+}
+.wrapper .content .main .dashboard-area .percent-area .date-tag .date {
+  font-size: 2em;
+  font-weight: 600;
+  color: #082b2f;
+}
+.wrapper .content .main .dashboard-area .percent-area .date-tag::after {
+  content: "";
+  height: 40px;
+  width: 40px;
+  display: block;
+  background-color: #fafafa;
+  position: absolute;
+  top: 50%;
+  right: -18px;
+  border-radius: 4px;
+  transform: translate(0, -50%) rotate(45deg) skew(24deg, 24deg);
+}
 
 /*# sourceMappingURL=main.css.map */
