@@ -106,5 +106,21 @@ body {
   outline: none;
   background: linear-gradient(90deg, #edf6fb, #f4f7fc);
 }
+.wrapper .content .main .dashboard-area {
+  margin-top: 3em;
+}
+.wrapper .content .main .dashboard-area .productivity-listing .pro-bar {
+  background-color: #e2f297;
+  padding: 0.95em;
+  color: #082b2f;
+  margin-bottom: 1.2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  box-sizing: border-box;
+  border-radius: 1em;
+  box-shadow: 0 6px 10px rgba(1, 86, 91, 0.05);
+}
 
 /*# sourceMappingURL=main.css.map */
