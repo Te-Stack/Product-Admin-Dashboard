@@ -163,7 +163,7 @@ body{
 
                 }
                 .percent-area{
-                    @include setFlex(flex, start, center, row);
+                    @include setFlex(flex, flex-start, center, row);
                     width: 50%;
 
                     .date-tag{
