@@ -297,6 +297,12 @@ body{
                         svg {
                             fill:none;
                             stroke: $dark-blue;
+                            stroke-width: 0.1em;
+                            stroke-dasharray: 62px;
+                            stroke-linecap: round;
+                            transform: rotate(65deg);
+                            position: absolute;
+                            z-index: 99;
                         }
                     }
                 }

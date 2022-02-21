@@ -277,6 +277,12 @@ body {
 .wrapper .content .main .dashboard-area .monthly-statistics .statistics-chart svg {
   fill: none;
   stroke: #01565b;
+  stroke-width: 0.1em;
+  stroke-dasharray: 62px;
+  stroke-linecap: round;
+  transform: rotate(65deg);
+  position: absolute;
+  z-index: 99;
 }
 
 /*# sourceMappingURL=main.css.map */
