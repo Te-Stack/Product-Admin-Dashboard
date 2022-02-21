@@ -304,7 +304,28 @@ body{
                             position: absolute;
                             z-index: 99;
 
-                            
+                            &:nth-child(2){
+                                stroke: $normal-green;
+                                transform: rotate(35deg);
+                                z-index: 98;
+                            }
+
+                            &:nth-child(3){
+                                stroke: $light-green;
+                                transform: rotate(0deg);
+                                z-index: 97;
+
+                            }
+
+                            &:nth-child(4){
+                                stroke: $off-blue;
+                                transform: rotate(0deg);
+                                z-index: 96;
+                                stroke-dasharray: 100px;
+
+                            }
+
+
                         }
                     }
                 }

@@ -284,5 +284,21 @@ body {
   position: absolute;
   z-index: 99;
 }
+.wrapper .content .main .dashboard-area .monthly-statistics .statistics-chart svg:nth-child(2) {
+  stroke: #5aba8a;
+  transform: rotate(35deg);
+  z-index: 98;
+}
+.wrapper .content .main .dashboard-area .monthly-statistics .statistics-chart svg:nth-child(3) {
+  stroke: #e2f297;
+  transform: rotate(0deg);
+  z-index: 97;
+}
+.wrapper .content .main .dashboard-area .monthly-statistics .statistics-chart svg:nth-child(4) {
+  stroke: #edf6fb;
+  transform: rotate(0deg);
+  z-index: 96;
+  stroke-dasharray: 100px;
+}
 
 /*# sourceMappingURL=main.css.map */
