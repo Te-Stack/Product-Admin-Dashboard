@@ -255,5 +255,28 @@ body {
   transform: translate(0, -50%);
   background-color: #5aba8a;
 }
+.wrapper .content .main .dashboard-area .h-title {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 1.75em;
+  font-weight: 600;
+  color: #082b2f;
+  text-align: center;
+}
+.wrapper .content .main .dashboard-area .monthly-statistics .statistics-chart {
+  height: 9.5em;
+  width: 9.5em;
+  margin: 0 auto;
+  margin-top: 1.5em;
+  margin-bottom: 1.65em;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: initial;
+}
+.wrapper .content .main .dashboard-area .monthly-statistics .statistics-chart svg {
+  fill: none;
+  stroke: #01565b;
+}
 
 /*# sourceMappingURL=main.css.map */

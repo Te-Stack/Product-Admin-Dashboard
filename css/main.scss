@@ -277,7 +277,31 @@ body{
                         background-color: $normal-green;
                     }
                 }
-            }
+
+                .h-title{
+                    @include setFont($main-font, 1.75em, 600);
+                    color: $secondary-text;
+                    text-align: center;
+                }
+
+                .monthly-statistics{
+                    .statistics-chart{
+                        height: 9.5em;
+                        width: 9.5em;
+                        margin: 0 auto;
+                        margin-top: 1.5em;
+                        margin-bottom: 1.65em;
+                        position: relative;
+                        @include setFlex(flex, center, center, initial);
+
+                        svg {
+                            fill:none;
+                            stroke: $dark-blue;
+                        }
+                    }
+                }
+
+                }
             
         }
 
