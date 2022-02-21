@@ -31,3 +31,9 @@
         }
     
 }
+
+@mixin setSCOption($strokeColor, $transFormVal, $zindex) {
+    stroke: $strokeColor;
+    transform: $transFormVal;
+    z-index: $zindex;
+}
