@@ -287,7 +287,7 @@ body{
                 .monthly-statistics{
                     .statistics-chart{
                         height: 9.5em;
-                        width: 9.5em;
+                        width: 9em;
                         margin: 0 auto;
                         margin-top: 1.5em;
                         margin-bottom: 1.65em;
@@ -335,6 +335,25 @@ body{
                             position:absolute;
                             bottom: 1em;
                         }
+                    }
+                    .statistics-progress {
+                        @include setFlex(flex, space-between, initial, column);
+                        height: 9.3em;
+                        
+                        .stat{
+                            .top-area{
+                                @include setFlex(flex, space-between, initial, initial);
+                                .stat-title {
+                                    color: $primary-text;
+                                    font-weight: 500;
+                                }
+                                .stat-percentage {
+                                    color: $secondary-text;
+                                    font-weight: 700;
+                                }
+                            }
+                        }
+
                     }
                 }
 

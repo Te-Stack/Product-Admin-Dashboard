@@ -264,7 +264,7 @@ body {
 }
 .wrapper .content .main .dashboard-area .monthly-statistics .statistics-chart {
   height: 9.5em;
-  width: 9.5em;
+  width: 9em;
   margin: 0 auto;
   margin-top: 1.5em;
   margin-bottom: 1.65em;
@@ -312,6 +312,27 @@ body {
   height: 4em;
   position: absolute;
   bottom: 1em;
+}
+.wrapper .content .main .dashboard-area .monthly-statistics .statistics-progress {
+  display: flex;
+  justify-content: space-between;
+  align-items: initial;
+  flex-direction: column;
+  height: 9.3em;
+}
+.wrapper .content .main .dashboard-area .monthly-statistics .statistics-progress .stat .top-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: initial;
+  flex-direction: initial;
+}
+.wrapper .content .main .dashboard-area .monthly-statistics .statistics-progress .stat .top-area .stat-title {
+  color: #627f83;
+  font-weight: 500;
+}
+.wrapper .content .main .dashboard-area .monthly-statistics .statistics-progress .stat .top-area .stat-percentage {
+  color: #082b2f;
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=main.css.map */
