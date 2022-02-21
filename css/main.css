@@ -352,5 +352,13 @@ body {
   border-radius: 15px;
   background-color: #5aba8a;
 }
+.wrapper .content .main .dashboard-area .monthly-statistics .statistics-progress .stat:nth-child(2) .outer .inner {
+  width: 80%;
+  background-color: #01565b;
+}
+.wrapper .content .main .dashboard-area .monthly-statistics .statistics-progress .stat:nth-child(3) .outer .inner {
+  width: 25%;
+  background-color: #e2f297;
+}
 
 /*# sourceMappingURL=main.css.map */

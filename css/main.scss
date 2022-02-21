@@ -372,12 +372,28 @@ body{
                                         border-radius: 15px;
                                         background-color: $normal-green;
                                     }
-                                }
-
-                                
-
-                                
+                                }       
                             }
+
+                            &:nth-child(2){
+                                .outer{
+                                    .inner{
+                                        width: 80%;
+                                        background-color: $dark-blue;
+
+                                    }
+                                }
+                            }
+                            &:nth-child(3){
+                                .outer{
+                                    .inner{
+                                        width: 25%;
+                                        background-color: $light-green;
+
+                                    }
+                                }
+                            }
+
                         }
 
                     }
