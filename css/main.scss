@@ -327,6 +327,20 @@ body{
 
 
                         }
+
+                        .decal-circle{
+                            height: 4.5em;
+                            width: 4.5em;
+                            display: inline-block;
+                            background-color: $light-green;
+                            border-radius: 50%;
+                            position: absolute;
+                        }
+
+                        .rocket{
+                            height: 4em;
+                            position:absolute;
+                        }
                     }
                 }
 

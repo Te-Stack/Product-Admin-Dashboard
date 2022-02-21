@@ -300,5 +300,17 @@ body {
   z-index: 96;
   stroke-dasharray: 100px;
 }
+.wrapper .content .main .dashboard-area .monthly-statistics .statistics-chart .decal-circle {
+  height: 4.5em;
+  width: 4.5em;
+  display: inline-block;
+  background-color: #e2f297;
+  border-radius: 50%;
+  position: absolute;
+}
+.wrapper .content .main .dashboard-area .monthly-statistics .statistics-chart .rocket {
+  height: 4em;
+  position: absolute;
+}
 
 /*# sourceMappingURL=main.css.map */
