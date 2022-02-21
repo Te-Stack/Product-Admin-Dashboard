@@ -311,6 +311,7 @@ body {
 .wrapper .content .main .dashboard-area .monthly-statistics .statistics-chart .rocket {
   height: 4em;
   position: absolute;
+  bottom: 1em;
 }
 
 /*# sourceMappingURL=main.css.map */
