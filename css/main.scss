@@ -352,6 +352,32 @@ body{
                                     font-weight: 700;
                                 }
                             }
+
+                            .stat-line{
+                                margin-top: 0.35em;
+
+
+                                .outer{
+                                    display: block;
+                                    width: 100%;
+                                    height: 0.4em;
+                                    border-radius: 25px;
+                                    background-color: $lighter-grey;
+                                    overflow: hidden;
+
+                                    .inner{
+                                        display: block;
+                                        height: inherit;
+                                        width: 40%;
+                                        border-radius: 15px;
+                                        background-color: $normal-green;
+                                    }
+                                }
+
+                                
+
+                                
+                            }
                         }
 
                     }
