@@ -441,6 +441,47 @@ body{
                             }
                         }
 
+                        .graph-days{
+                            position: absolute;
+                            top: 1.25em;
+                            bottom: 0;
+                            width: 100%;
+                            // overflow: hidden;
+
+                            .g-days{
+                                    height: 2.15em;
+                                    margin-bottom: 1.1em;
+                                    @include setFlex(flex, initial, center, initial);
+                                .title{
+                                    width: 2.2em;
+                                    @include setFont($main-font, 0.9em, 500);
+                                    color: $primary-text;
+
+                                    &.active{
+                                        font-weight: 700;
+                                        color: $dark-blue
+                                    }
+
+                                }
+
+                                .tag{
+                                    position: relative;
+                                    left: 1.65em;
+
+                                    .content{
+                                        background-color:$light-green ;
+                                        height: 3em;
+                                        padding: 0.2em;
+                                        @include setFlex(flex, initial, center, initial);
+                                    }
+                                }
+
+
+                            }
+
+                            
+                        }
+
                     }
 
                     

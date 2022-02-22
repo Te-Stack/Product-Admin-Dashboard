@@ -388,5 +388,43 @@ body {
   width: 5em;
   border-left: 2px solid #ebf1f5;
 }
+.wrapper .content .main .dashboard-area .upcoming-activity .activity-chart .graph-days {
+  position: absolute;
+  top: 1.25em;
+  bottom: 0;
+  width: 100%;
+}
+.wrapper .content .main .dashboard-area .upcoming-activity .activity-chart .graph-days .g-days {
+  height: 2.15em;
+  margin-bottom: 1.1em;
+  display: flex;
+  justify-content: initial;
+  align-items: center;
+  flex-direction: initial;
+}
+.wrapper .content .main .dashboard-area .upcoming-activity .activity-chart .graph-days .g-days .title {
+  width: 2.2em;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 0.9em;
+  font-weight: 500;
+  color: #627f83;
+}
+.wrapper .content .main .dashboard-area .upcoming-activity .activity-chart .graph-days .g-days .title.active {
+  font-weight: 700;
+  color: #01565b;
+}
+.wrapper .content .main .dashboard-area .upcoming-activity .activity-chart .graph-days .g-days .tag {
+  position: relative;
+  left: 1.65em;
+}
+.wrapper .content .main .dashboard-area .upcoming-activity .activity-chart .graph-days .g-days .tag .content {
+  background-color: #e2f297;
+  height: 3em;
+  padding: 0.2em;
+  display: flex;
+  justify-content: initial;
+  align-items: center;
+  flex-direction: initial;
+}
 
 /*# sourceMappingURL=main.css.map */
