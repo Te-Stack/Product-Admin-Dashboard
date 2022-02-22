@@ -363,10 +363,26 @@ body {
 .wrapper .content .main .dashboard-area .upcoming-activity .h-title {
   text-align: left;
 }
+.wrapper .content .main .dashboard-area .upcoming-activity .activity-chart {
+  position: relative;
+  display: flex;
+  margin-top: 3em;
+  height: 7.9em;
+}
 .wrapper .content .main .dashboard-area .upcoming-activity .activity-chart table {
   height: 25.6em;
   position: relative;
   left: 50px;
+}
+.wrapper .content .main .dashboard-area .upcoming-activity .activity-chart table thead .graph-time th {
+  position: relative;
+  text-align: left;
+  left: -20px;
+  bottom: 1.75em;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 0.9em;
+  font-weight: 600;
+  color: #627f83;
 }
 
 /*# sourceMappingURL=main.css.map */

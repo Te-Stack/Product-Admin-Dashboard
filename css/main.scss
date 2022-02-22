@@ -405,6 +405,11 @@ body{
                     }
 
                     .activity-chart{
+                        position: relative;
+                        display: flex;
+                        margin-top: 3em;
+                        height: 7.9em;
+                        
                         table{
                             height: 25.6em;
                             position: relative;
@@ -413,7 +418,12 @@ body{
                             thead{
                                 .graph-time{
                                     th{
-
+                                        position: relative;
+                                        text-align: left;
+                                        left: -20px;
+                                        bottom: 1.75em;
+                                        @include setFont($main-font,0.9em, 600);
+                                        color:$primary-text;
                                     }
 
                                 }
