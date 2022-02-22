@@ -406,6 +406,10 @@ body{
 
                     .activity-chart{
                         table{
+                            height: 25.6em;
+                            position: relative;
+                            left: 50px;
+
                             thead{
                                 .graph-time{
                                     th{
@@ -418,7 +422,7 @@ body{
                             tbody{
                                 .graph-col{
                                     .bar{
-                                        
+
                                     }
                                 }
 

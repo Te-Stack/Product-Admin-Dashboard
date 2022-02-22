@@ -363,5 +363,10 @@ body {
 .wrapper .content .main .dashboard-area .upcoming-activity .h-title {
   text-align: left;
 }
+.wrapper .content .main .dashboard-area .upcoming-activity .activity-chart table {
+  height: 25.6em;
+  position: relative;
+  left: 50px;
+}
 
 /*# sourceMappingURL=main.css.map */
