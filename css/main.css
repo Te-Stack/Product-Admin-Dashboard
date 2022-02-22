@@ -384,5 +384,9 @@ body {
   font-weight: 600;
   color: #627f83;
 }
+.wrapper .content .main .dashboard-area .upcoming-activity .activity-chart table tbody .graph-col .bar {
+  width: 5em;
+  border-left: 2px solid #ebf1f5;
+}
 
 /*# sourceMappingURL=main.css.map */

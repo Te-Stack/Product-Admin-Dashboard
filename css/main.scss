@@ -409,7 +409,7 @@ body{
                         display: flex;
                         margin-top: 3em;
                         height: 7.9em;
-                        
+
                         table{
                             height: 25.6em;
                             position: relative;
@@ -432,6 +432,8 @@ body{
                             tbody{
                                 .graph-col{
                                     .bar{
+                                        width: 5em;
+                                        border-left: 2px solid $lighter-grey
 
                                     }
                                 }
