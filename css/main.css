@@ -420,12 +420,13 @@ body {
 .wrapper .content .main .dashboard-area .upcoming-activity .activity-chart .graph-days .g-days .tag .content {
   background-color: #e2f297;
   height: 3em;
-  padding: 0.2em;
+  padding: 0.8em;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: initial;
   text-align: center;
+  border-radius: 0.8em;
 }
 .wrapper .content .main .dashboard-area .upcoming-activity .activity-chart .graph-days .g-days .tag .content .tag-title {
   font-family: "Kumbh Sans", sans-serif;
@@ -444,7 +445,19 @@ body {
   border-radius: 50%;
   top: 50%;
   transform: translate(0, -50%);
-  left: -0.1em;
+  left: -0.6em;
+}
+.wrapper .content .main .dashboard-area .upcoming-activity .activity-chart .graph-days .g-days .tag .content::after {
+  content: "";
+  height: 34px;
+  width: 30px;
+  display: block;
+  background-color: #e2f297;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%) rotate(45deg) skew(5deg, 5deg);
+  right: -15px;
+  border-radius: 6px;
 }
 
 /*# sourceMappingURL=main.css.map */

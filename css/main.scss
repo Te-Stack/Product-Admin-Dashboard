@@ -471,9 +471,10 @@ body{
                                     .content{
                                         background-color:$light-green ;
                                         height: 3em;
-                                        padding: 0.2em;
+                                        padding: 0.8em;
                                         @include setFlex(flex, center, center, initial);
                                         text-align: center;
+                                        border-radius: 0.8em;
 
                                         .tag-title{
                                             @include setFont($main-font, 0.9em, 600);
@@ -490,10 +491,23 @@ body{
                                                 border-radius: 50%;
                                                 top: 50%;
                                                 transform: translate(0,-50%);
-                                                left: -0.1em;
-
+                                                left: -0.6em;
                                             }
 
+
+                                        }
+
+                                        &::after{
+                                            content: "";
+                                            height: 34px;
+                                            width: 30px;
+                                            display: block;
+                                            background-color: $light-green;
+                                            position: absolute;
+                                            top: 50%;
+                                            transform: translate(0,-50%)  rotate(45deg) skew(5deg, 5deg);
+                                            right: -15px;
+                                            border-radius: 6px;
 
                                         }
                                     }
