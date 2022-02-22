@@ -405,7 +405,26 @@ body{
                     }
 
                     .activity-chart{
-                        
+                        table{
+                            thead{
+                                .graph-time{
+                                    th{
+
+                                    }
+
+                                }
+
+                            }
+                            tbody{
+                                .graph-col{
+                                    .bar{
+                                        
+                                    }
+                                }
+
+                            }
+                        }
+
                     }
 
                     
