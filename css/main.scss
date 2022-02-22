@@ -472,7 +472,30 @@ body{
                                         background-color:$light-green ;
                                         height: 3em;
                                         padding: 0.2em;
-                                        @include setFlex(flex, initial, center, initial);
+                                        @include setFlex(flex, center, center, initial);
+                                        text-align: center;
+
+                                        .tag-title{
+                                            @include setFont($main-font, 0.9em, 600);
+                                            color: $dark-blue;
+                                            position: relative;
+
+                                            &::before{
+                                                content: "";
+                                                position:absolute;
+                                                height: 0.4em;
+                                                width: 0.4em;
+                                                background-color: $dark-blue;
+                                                display: block;
+                                                border-radius: 50%;
+                                                top: 50%;
+                                                transform: translate(0,-50%);
+                                                left: -0.1em;
+
+                                            }
+
+
+                                        }
                                     }
                                 }
 

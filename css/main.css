@@ -422,9 +422,29 @@ body {
   height: 3em;
   padding: 0.2em;
   display: flex;
-  justify-content: initial;
+  justify-content: center;
   align-items: center;
   flex-direction: initial;
+  text-align: center;
+}
+.wrapper .content .main .dashboard-area .upcoming-activity .activity-chart .graph-days .g-days .tag .content .tag-title {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 0.9em;
+  font-weight: 600;
+  color: #01565b;
+  position: relative;
+}
+.wrapper .content .main .dashboard-area .upcoming-activity .activity-chart .graph-days .g-days .tag .content .tag-title::before {
+  content: "";
+  position: absolute;
+  height: 0.4em;
+  width: 0.4em;
+  background-color: #01565b;
+  display: block;
+  border-radius: 50%;
+  top: 50%;
+  transform: translate(0, -50%);
+  left: -0.1em;
 }
 
 /*# sourceMappingURL=main.css.map */
