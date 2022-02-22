@@ -360,5 +360,8 @@ body {
   width: 25%;
   background-color: #e2f297;
 }
+.wrapper .content .main .dashboard-area .upcoming-activity .h-title {
+  text-align: left;
+}
 
 /*# sourceMappingURL=main.css.map */
