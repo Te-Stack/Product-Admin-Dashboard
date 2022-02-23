@@ -459,6 +459,21 @@ body {
   right: -15px;
   border-radius: 6px;
 }
+.wrapper .content .main .dashboard-area .upcoming-activity .activity-chart .graph-days .g-days .tag .tag-stroke {
+  height: 16.3em;
+  width: 2px;
+  background: linear-gradient(0deg, #e2f297, transparent);
+  position: absolute;
+  right: 50%;
+  top: 1.5em;
+}
+.wrapper .content .main .dashboard-area .upcoming-activity .activity-chart .graph-days .g-days .tag .tag-stroke .inner {
+  position: absolute;
+  bottom: 0;
+  height: 100%;
+  width: inherit;
+  background: linear-gradient(0deg, #e2f297, transparent);
+}
 .wrapper .content .main .dashboard-area .upcoming-activity .activity-chart .graph-days .g-days:nth-child(4) .tag {
   left: 15.7em;
 }
