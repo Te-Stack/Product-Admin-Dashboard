@@ -474,5 +474,35 @@ body {
 .wrapper .content .main .dashboard-area .upcoming-activity .activity-chart .graph-days .g-days:nth-child(4) .tag .tag-title::before {
   background-color: #fafafa;
 }
+.wrapper .content .main .dashboard-area .upcoming-activity .activity-chart .graph-days .g-days:nth-child(5) .tag {
+  left: 10.7em;
+}
+.wrapper .content .main .dashboard-area .upcoming-activity .activity-chart .graph-days .g-days:nth-child(5) .tag .content {
+  background-color: #01565b;
+}
+.wrapper .content .main .dashboard-area .upcoming-activity .activity-chart .graph-days .g-days:nth-child(5) .tag .content::after {
+  background-color: #01565b;
+}
+.wrapper .content .main .dashboard-area .upcoming-activity .activity-chart .graph-days .g-days:nth-child(5) .tag .tag-title {
+  color: #e2f297;
+}
+.wrapper .content .main .dashboard-area .upcoming-activity .activity-chart .graph-days .g-days:nth-child(5) .tag .tag-title::before {
+  background-color: #e2f297;
+}
+.wrapper .content .main .dashboard-area .upcoming-activity .activity-chart .graph-days .g-days:nth-child(7) .tag {
+  left: 20.7em;
+}
+.wrapper .content .main .dashboard-area .upcoming-activity .activity-chart .graph-days .g-days:nth-child(7) .tag .content {
+  background-color: #edf6fb;
+}
+.wrapper .content .main .dashboard-area .upcoming-activity .activity-chart .graph-days .g-days:nth-child(7) .tag .content::after {
+  background-color: #edf6fb;
+}
+.wrapper .content .main .dashboard-area .upcoming-activity .activity-chart .graph-days .g-days:nth-child(7) .tag .tag-title {
+  color: #01565b;
+}
+.wrapper .content .main .dashboard-area .upcoming-activity .activity-chart .graph-days .g-days:nth-child(7) .tag .tag-title::before {
+  background-color: #01565b;
+}
 
 /*# sourceMappingURL=main.css.map */

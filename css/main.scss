@@ -533,6 +533,46 @@ body{
                                         }
                                     }
                                 }
+                                &:nth-child(5) {
+                                    .tag{
+                                        left: 10.7em;
+                                        .content{
+                                            background-color: $dark-blue;
+                                            &::after{
+                                                background-color: $dark-blue;
+
+                                            }
+                                        }
+
+                                        .tag-title{
+                                            color: $light-green;
+                                            &::before{
+                                                background-color:$light-green
+
+                                            }
+                                        }
+                                    }
+                                }
+                                &:nth-child(7) {
+                                    .tag{
+                                        left: 20.7em;
+                                        .content{
+                                            background-color: $off-blue;
+                                            &::after{
+                                                background-color: $off-blue;
+
+                                            }
+                                        }
+
+                                        .tag-title{
+                                            color: $dark-blue;
+                                            &::before{
+                                                background-color: $dark-blue;
+
+                                            }
+                                        }
+                                    }
+                                }
 
 
                             }
