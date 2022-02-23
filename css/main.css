@@ -710,7 +710,7 @@ body {
 .wrapper .content .profile-area .work-hours .timeframe .time_data:first-child {
   background-color: #fafafa;
   position: relative;
-  margin-right: 1em;
+  margin-right: 0.6em;
 }
 .wrapper .content .profile-area .work-hours .timeframe .time_data:first-child .title {
   color: #627f83;
