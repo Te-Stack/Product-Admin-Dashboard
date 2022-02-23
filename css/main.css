@@ -459,5 +459,20 @@ body {
   right: -15px;
   border-radius: 6px;
 }
+.wrapper .content .main .dashboard-area .upcoming-activity .activity-chart .graph-days .g-days:nth-child(4) .tag {
+  left: 15.7em;
+}
+.wrapper .content .main .dashboard-area .upcoming-activity .activity-chart .graph-days .g-days:nth-child(4) .tag .content {
+  background-color: #5aba8a;
+}
+.wrapper .content .main .dashboard-area .upcoming-activity .activity-chart .graph-days .g-days:nth-child(4) .tag .content::after {
+  background-color: #5aba8a;
+}
+.wrapper .content .main .dashboard-area .upcoming-activity .activity-chart .graph-days .g-days:nth-child(4) .tag .tag-title {
+  color: #fafafa;
+}
+.wrapper .content .main .dashboard-area .upcoming-activity .activity-chart .graph-days .g-days:nth-child(4) .tag .tag-title::before {
+  background-color: #fafafa;
+}
 
 /*# sourceMappingURL=main.css.map */

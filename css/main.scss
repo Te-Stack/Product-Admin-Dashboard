@@ -513,6 +513,27 @@ body{
                                     }
                                 }
 
+                                &:nth-child(4) {
+                                    .tag{
+                                        left: 15.7em;
+                                        .content{
+                                            background-color: $normal-green;
+                                            &::after{
+                                                background-color: $normal-green;
+
+                                            }
+                                        }
+
+                                        .tag-title{
+                                            color: $background-white;
+                                            &::before{
+                                                background-color: $background-white;
+
+                                            }
+                                        }
+                                    }
+                                }
+
 
                             }
 
