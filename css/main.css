@@ -467,31 +467,26 @@ body {
   right: 45%;
   top: 3.5em;
 }
-.wrapper .content .main .dashboard-area .upcoming-activity .activity-chart .graph-days .g-days .tag .tag-stroke::before {
+.wrapper .content .main .dashboard-area .upcoming-activity .activity-chart .graph-days .g-days .tag .tag-stroke::before, .wrapper .content .main .dashboard-area .upcoming-activity .activity-chart .graph-days .g-days .tag .tag-stroke::after {
   content: "";
+  display: block;
+  position: absolute;
+  border-radius: 50%;
+  left: 50%;
+  z-index: 99;
+  transform: translate(-50%, 0);
+}
+.wrapper .content .main .dashboard-area .upcoming-activity .activity-chart .graph-days .g-days .tag .tag-stroke::before {
   height: 0.55em;
   width: 0.55em;
-  display: block;
-  border-radius: 50%;
   background-color: #01565b;
-  position: absolute;
   top: 0;
-  left: 50%;
-  transform: translate(-50%, 0);
-  z-index: 99;
 }
 .wrapper .content .main .dashboard-area .upcoming-activity .activity-chart .graph-days .g-days .tag .tag-stroke::after {
-  content: "";
   height: 1.44em;
   width: 1.44em;
-  display: block;
-  border-radius: 50%;
   border: 1px solid rgba(1, 86, 91, 0.45);
-  position: absolute;
   top: -7px;
-  left: 50%;
-  transform: translate(-50%, 0);
-  z-index: 99;
 }
 .wrapper .content .main .dashboard-area .upcoming-activity .activity-chart .graph-days .g-days:nth-child(4) .tag {
   left: 15.7em;

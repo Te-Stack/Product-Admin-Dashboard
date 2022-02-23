@@ -520,31 +520,33 @@ body{
                                         right: 45%;
                                         top: 3.5em;
 
-                                        &::before{
+
+                                        &::before, &::after{
                                             content: "";
+                                            display: block;
+                                            position: absolute;
+                                            border-radius: 50%;
+                                            left: 50%;
+                                            z-index: 99;
+                                            transform: translate(-50%, 0);
+
+                                        }
+
+                                        &::before{
+                                            
                                             height: 0.55em;
                                             width: 0.55em;
-                                            display: block;
-                                            border-radius: 50%;
                                             background-color: $dark-blue;
-                                            position: absolute;
-                                            top: 0;
-                                            left: 50%;
-                                            transform: translate(-50%, 0);
-                                            z-index: 99;
+                                            top: 0;    
+                                           
                                         }
+
                                         &::after{
-                                            content: "";
                                             height: 1.44em;
                                             width: 1.44em;
-                                            display: block;
-                                            border-radius: 50%;
                                             border: 1px solid rgba(1,86,91,0.45);
-                                            position: absolute;
                                             top: -7px;
-                                            left: 50%;
-                                            transform: translate(-50%, 0);
-                                            z-index: 99;
+                                           
                                         }
                                         
                                     }
