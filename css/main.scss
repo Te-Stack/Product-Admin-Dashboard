@@ -515,18 +515,12 @@ body{
                                     .tag-stroke{
                                         height: 16.3em;
                                         width: 2px;
-                                        background: linear-gradient(0deg, $light-green, transparent);
+                                        background: linear-gradient(0deg, $light-green,$dark-blue);
                                         position: absolute;
                                         right: 50%;
-                                        top: 1.5em;
+                                        top: 3.5em;
 
-                                        .inner{
-                                            position: absolute;
-                                            bottom: 0;
-                                            height: 100%;
-                                            width: inherit;
-                                            background: linear-gradient(0deg, $light-green, transparent);
-                                        }
+                                        
                                     }
                                 }
 
