@@ -574,6 +574,65 @@ body{
                     
                 }
 
+                .upcoming-schedule{
+                    // text-align: center;
+                    position: relative;
+                    .h-title{
+                        text-align: left;
+                    }
+
+                    .schedule-list{
+                        margin-top: 4em;
+
+
+                        .schedule{
+                            @include setFlex(flex, flex-start,  center, initial);
+                            position: relative;
+                            margin-top: 2.7em;
+                            .icon{
+                                border: 2px solid $darker-grey;
+                                display: inline-block;
+                                border-radius: 50%;
+                                padding: 0.9em;
+
+                                img{
+                                    height: 1.8em;
+
+                                }
+                            }
+                            .details{
+                                text-transform: capitalize;
+                                margin-left: 1.8em;
+
+                                .title{
+                                    font-size: 1em;
+                                    font-weight: 600;
+                                    color: $secondary-text;
+                                    margin-bottom: 0.2em;
+
+                                }
+
+                                .status{
+                                    font-weight: 500;
+                                    color: $primary-text;
+
+
+                                }
+
+                            }
+
+                            .time{
+                                position: absolute;
+                                right: 0;
+                                top: 0.5em;
+                                font-size: 0.9em;
+                                font-weight: 600;
+                                color: $primary-text;
+                            }
+                        }
+                    }
+                }
+
                 }
             
         }

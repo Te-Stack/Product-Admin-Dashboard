@@ -533,5 +533,53 @@ body {
 .wrapper .content .main .dashboard-area .upcoming-activity .activity-chart .graph-days .g-days:nth-child(7) .tag .tag-title::before {
   background-color: #01565b;
 }
+.wrapper .content .main .dashboard-area .upcoming-schedule {
+  position: relative;
+}
+.wrapper .content .main .dashboard-area .upcoming-schedule .h-title {
+  text-align: left;
+}
+.wrapper .content .main .dashboard-area .upcoming-schedule .schedule-list {
+  margin-top: 4em;
+}
+.wrapper .content .main .dashboard-area .upcoming-schedule .schedule-list .schedule {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: initial;
+  position: relative;
+  margin-top: 2.7em;
+}
+.wrapper .content .main .dashboard-area .upcoming-schedule .schedule-list .schedule .icon {
+  border: 2px solid #E0E0E0;
+  display: inline-block;
+  border-radius: 50%;
+  padding: 0.9em;
+}
+.wrapper .content .main .dashboard-area .upcoming-schedule .schedule-list .schedule .icon img {
+  height: 1.8em;
+}
+.wrapper .content .main .dashboard-area .upcoming-schedule .schedule-list .schedule .details {
+  text-transform: capitalize;
+  margin-left: 1.8em;
+}
+.wrapper .content .main .dashboard-area .upcoming-schedule .schedule-list .schedule .details .title {
+  font-size: 1em;
+  font-weight: 600;
+  color: #082b2f;
+  margin-bottom: 0.2em;
+}
+.wrapper .content .main .dashboard-area .upcoming-schedule .schedule-list .schedule .details .status {
+  font-weight: 500;
+  color: #627f83;
+}
+.wrapper .content .main .dashboard-area .upcoming-schedule .schedule-list .schedule .time {
+  position: absolute;
+  right: 0;
+  top: 0.5em;
+  font-size: 0.9em;
+  font-weight: 600;
+  color: #627f83;
+}
 
 /*# sourceMappingURL=main.css.map */
