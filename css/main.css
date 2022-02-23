@@ -67,7 +67,6 @@ body {
   width: 100%;
 }
 .wrapper .content .main {
-  height: 100vh;
   padding: 2.5em 3em 0em 3em;
   border-right: 2px solid #ebf1f5;
 }
@@ -540,7 +539,7 @@ body {
   text-align: left;
 }
 .wrapper .content .main .dashboard-area .upcoming-schedule .schedule-list {
-  margin-top: 4em;
+  margin-top: 3em;
 }
 .wrapper .content .main .dashboard-area .upcoming-schedule .schedule-list .schedule {
   display: flex;
@@ -580,6 +579,20 @@ body {
   font-size: 0.9em;
   font-weight: 600;
   color: #627f83;
+}
+.wrapper .content .main .dashboard-area .upcoming-schedule .all-activity-btn {
+  display: inline-block;
+  text-transform: capitalize;
+  color: #e2f297;
+  background-color: #01565b;
+  border-radius: 75px;
+  font-size: 1em;
+  padding: 0.6em 2.2em;
+  margin-top: 1em;
+  box-sizing: 0 10px 26px rgba(1, 86, 91, 0.3);
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
 }
 
 /*# sourceMappingURL=main.css.map */

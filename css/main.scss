@@ -90,7 +90,7 @@ body{
     .content{
         width: 100%;
         .main{
-            height: 100vh;
+            // height: 100vh;
             padding: 2.5em 3em 0em 3em;
             border-right: 2px solid $lighter-grey;
 
@@ -582,7 +582,7 @@ body{
                     }
 
                     .schedule-list{
-                        margin-top: 4em;
+                        margin-top: 3em;
 
 
                         .schedule{
@@ -630,6 +630,22 @@ body{
                                 color: $primary-text;
                             }
                         }
+
+                    }
+
+                    .all-activity-btn{
+                        display: inline-block;
+                        text-transform: capitalize;
+                        color: $light-green;
+                        background-color: $dark-blue;
+                        border-radius: 75px;
+                        font-size: 1em;
+                        padding: 0.6em 2.2em;
+                        margin-top: 1em;
+                        box-sizing: 0 10px 26px rgb(1 86 91 / 30%);
+                        position: absolute;
+                        left: 50%;
+                        transform: translate(-50%,0);
                     }
                 }
 
