@@ -809,6 +809,42 @@ body{
                     }
                 }
             }
+
+            .city{
+                margin-top: 4em;
+                color: $background-white;
+                text-align: center;
+
+                .city-name{
+                    font-size: 2em;
+                    font-weight: 500;
+                    text-transform: capitalize;
+                    margin-bottom: 0.2em;
+                }
+
+                grp{
+                    @include setFlex(flex, center, center, initial);
+                    font-size: 0.7em;
+                    opacity: 0.6; 
+                    
+                    .place{
+                        text-transform: capitalize;
+                    }
+
+                    .bullet{
+                        margin: 0 10px;
+                        width: 0.3em;
+                        height: 0.3em;
+                        border-radius: 50%;
+                        background-color: $background-white;
+                        display: block;
+                    }
+
+                    .timezone{
+                        text-transform: uppercase;
+                    }
+                }
+            }
         }
     }
 }

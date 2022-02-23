@@ -730,5 +730,38 @@ body {
   border-radius: 4px;
   transform: translate(0, -50%) rotate(45deg) skew(14deg, 14deg);
 }
+.wrapper .content .profile-area .city {
+  margin-top: 4em;
+  color: #fafafa;
+  text-align: center;
+}
+.wrapper .content .profile-area .city .city-name {
+  font-size: 2em;
+  font-weight: 500;
+  text-transform: capitalize;
+  margin-bottom: 0.2em;
+}
+.wrapper .content .profile-area .city grp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: initial;
+  font-size: 0.7em;
+  opacity: 0.6;
+}
+.wrapper .content .profile-area .city grp .place {
+  text-transform: capitalize;
+}
+.wrapper .content .profile-area .city grp .bullet {
+  margin: 0 10px;
+  width: 0.3em;
+  height: 0.3em;
+  border-radius: 50%;
+  background-color: #fafafa;
+  display: block;
+}
+.wrapper .content .profile-area .city grp .timezone {
+  text-transform: uppercase;
+}
 
 /*# sourceMappingURL=main.css.map */
