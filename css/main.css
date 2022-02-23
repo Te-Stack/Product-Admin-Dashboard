@@ -718,5 +718,17 @@ body {
 .wrapper .content .profile-area .work-hours .timeframe .time_data:first-child .time_assigned {
   color: #01565b;
 }
+.wrapper .content .profile-area .work-hours .timeframe .time_data:first-child::after {
+  content: "";
+  height: 32px;
+  width: 32px;
+  display: block;
+  background-color: #fafafa;
+  position: absolute;
+  top: 50%;
+  right: -11px;
+  border-radius: 4px;
+  transform: translate(0, -50%) rotate(45deg) skew(14deg, 14deg);
+}
 
 /*# sourceMappingURL=main.css.map */

@@ -791,6 +791,19 @@ body{
                                 
                                 color: $dark-blue
                             }
+
+                            &::after{
+                                content: "";
+                                height: 32px;
+                                width: 32px;
+                                display: block;
+                                background-color: $background-white;
+                                position: absolute;
+                                top: 50%;
+                                right: -11px;
+                                border-radius: 4px;
+                                transform: translate(0, -50%) rotate(45deg) skew(14deg, 14deg) ;
+                            }
                         }
 
                     }
