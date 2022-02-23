@@ -486,10 +486,9 @@ body {
   width: 1.44em;
   display: block;
   border-radius: 50%;
-  background-color: transparent;
   border: 1px solid rgba(1, 86, 91, 0.45);
   position: absolute;
-  top: -0.4em;
+  top: -7px;
   left: 50%;
   transform: translate(-50%, 0);
   z-index: 99;
