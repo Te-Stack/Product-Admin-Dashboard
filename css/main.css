@@ -594,5 +594,9 @@ body {
   left: 50%;
   transform: translate(-50%, 0);
 }
+.wrapper .content .profile-area {
+  height: 100%;
+  background-image: url(../assets/original.jpg);
+}
 
 /*# sourceMappingURL=main.css.map */
