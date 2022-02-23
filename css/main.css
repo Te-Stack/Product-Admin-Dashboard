@@ -600,6 +600,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 2.5em;
+  text-align: center;
 }
 .wrapper .content .profile-area .profile-nav {
   display: flex;
@@ -666,6 +667,56 @@ body {
   font-weight: 600;
   color: #01565b;
   margin-left: 0.7em;
+}
+.wrapper .content .profile-area .work-hours {
+  margin-top: 2.6em;
+}
+.wrapper .content .profile-area .work-hours h3.title {
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: 500;
+  color: #fafafa;
+}
+.wrapper .content .profile-area .work-hours .timeframe {
+  margin: 0 auto;
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: initial;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 0.7em;
+  border-radius: 1em;
+  width: fit-content;
+}
+.wrapper .content .profile-area .work-hours .timeframe .time_data {
+  padding: 8px 24px;
+  border-radius: 0.75em;
+}
+.wrapper .content .profile-area .work-hours .timeframe .time_data span {
+  display: block;
+}
+.wrapper .content .profile-area .work-hours .timeframe .time_data .title {
+  text-transform: capitalize;
+  font-size: 0.775em;
+  font-weight: 500;
+  color: #fafafa;
+}
+.wrapper .content .profile-area .work-hours .timeframe .time_data .time_assigned {
+  font-size: 1.125em;
+  font-weight: 600;
+  color: #fafafa;
+}
+.wrapper .content .profile-area .work-hours .timeframe .time_data:first-child {
+  background-color: #fafafa;
+  position: relative;
+  margin-right: 1em;
+}
+.wrapper .content .profile-area .work-hours .timeframe .time_data:first-child .title {
+  color: #627f83;
+}
+.wrapper .content .profile-area .work-hours .timeframe .time_data:first-child .time_assigned {
+  color: #01565b;
 }
 
 /*# sourceMappingURL=main.css.map */

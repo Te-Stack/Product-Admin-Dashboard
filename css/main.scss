@@ -659,6 +659,7 @@ body{
             background-repeat: no-repeat;
             background-size: cover;
             padding: 2.5em;
+            text-align: center;
 
             .profile-nav{
                 @include setFlex(flex, space-between, center, initial);
@@ -731,6 +732,68 @@ body{
                     }
 
 
+                }
+            }
+
+            .work-hours{
+                margin-top: 2.6em;
+
+                h3.title{
+                    text-align: center;
+                    font-size: 1.1em;
+                    font-weight: 500;
+                    color: $background-white;
+
+                }
+
+                .timeframe{
+                    margin: 0 auto;
+                    margin-top: 1em;
+                    @include setFlex(flex, center, center , initial);
+                    background-color: rgba(255, 255, 255,0.2);
+                    padding: 0.7em;
+                    border-radius: 1em;
+                    width: fit-content;
+                    .time_data{
+                        padding: 8px 24px;
+                        border-radius: 0.75em;
+
+                        span{
+                            display: block;
+
+                        }
+                        .title{
+                            text-transform: capitalize;
+                            font-size: 0.775em;
+                            font-weight: 500;
+                            color: $background-white;
+
+                        }
+
+                        .time_assigned{
+                            font-size: 1.125em;
+                            font-weight: 600;
+                            color: $background-white;
+                        }
+
+                        &:first-child{
+                            background-color: $background-white;
+                            position: relative;
+                            margin-right: 1em;
+
+                            .title{
+                                
+                                color: $primary-text;
+    
+                            }
+    
+                            .time_assigned{
+                                
+                                color: $dark-blue
+                            }
+                        }
+
+                    }
                 }
             }
         }
