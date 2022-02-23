@@ -514,64 +514,14 @@ body{
                                 }
 
                                 &:nth-child(4) {
-                                    .tag{
-                                        left: 15.7em;
-                                        .content{
-                                            background-color: $normal-green;
-                                            &::after{
-                                                background-color: $normal-green;
-
-                                            }
-                                        }
-
-                                        .tag-title{
-                                            color: $background-white;
-                                            &::before{
-                                                background-color: $background-white;
-
-                                            }
-                                        }
-                                    }
+                                    @include SetTagOptions(15.7em, $normal-green, $background-white);
                                 }
                                 &:nth-child(5) {
-                                    .tag{
-                                        left: 10.7em;
-                                        .content{
-                                            background-color: $dark-blue;
-                                            &::after{
-                                                background-color: $dark-blue;
-
-                                            }
-                                        }
-
-                                        .tag-title{
-                                            color: $light-green;
-                                            &::before{
-                                                background-color:$light-green
-
-                                            }
-                                        }
-                                    }
+                                    @include SetTagOptions(10.7em, $dark-blue, $light-green);
                                 }
                                 &:nth-child(7) {
-                                    .tag{
-                                        left: 20.7em;
-                                        .content{
-                                            background-color: $off-blue;
-                                            &::after{
-                                                background-color: $off-blue;
-
-                                            }
-                                        }
-
-                                        .tag-title{
-                                            color: $dark-blue;
-                                            &::before{
-                                                background-color: $dark-blue;
-
-                                            }
-                                        }
-                                    }
+                                    @include SetTagOptions(20.7em, $off-blue , $dark-blue);
+                                    
                                 }
 
 

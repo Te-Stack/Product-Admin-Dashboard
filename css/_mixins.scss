@@ -37,3 +37,23 @@
     transform: $transFormVal;
     z-index: $zindex;
 }
+
+@mixin SetTagOptions($leftVal, $Contentbg , $tagColor) {
+    .tag{
+        left:$leftVal;
+        .content{
+            background-color: $Contentbg;
+            &::after{
+                background-color: $Contentbg;
+            }
+        }
+
+        .tag-title{
+            color: $tagColor;
+            &::before{
+                background-color: $tagColor;
+            }
+        }
+    }
+    
+}
