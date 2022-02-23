@@ -597,6 +597,55 @@ body {
 .wrapper .content .profile-area {
   height: 100%;
   background-image: url(../assets/original.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 2.5em;
+}
+.wrapper .content .profile-area .profile-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: initial;
+}
+.wrapper .content .profile-area .profile-nav button {
+  background-color: rgba(255, 255, 255, 0.2);
+  height: 2.3em;
+  width: 2.3em;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: initial;
+}
+.wrapper .content .profile-area .profile-nav button img {
+  height: 0.8em;
+}
+.wrapper .content .profile-area .profile-data .avatar {
+  height: 5em;
+  width: 5em;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-top: 1.5em;
+  overflow: hidden;
+}
+.wrapper .content .profile-area .profile-data .name-data {
+  margin-top: 1em;
+  text-align: center;
+  color: #fafafa;
+}
+.wrapper .content .profile-area .profile-data .name-data .fullname {
+  font-size: 1.3em;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.wrapper .content .profile-area .profile-data .name-data .job-title {
+  display: block;
+  margin-top: 0.3em;
+  font-size: 0.95em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.wrapper .content .profile-area .profile-data .name-data .job-title::first-letter {
+  text-transform: capitalize;
 }
 
 /*# sourceMappingURL=main.css.map */

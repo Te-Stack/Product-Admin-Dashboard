@@ -656,7 +656,62 @@ body{
         .profile-area{
             height: 100%;
             background-image: url(../assets/original.jpg);
-            
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 2.5em;
+
+            .profile-nav{
+                @include setFlex(flex, space-between, center, initial);
+                button{
+                    background-color: rgba(255,255,255,0.2);
+                    height: 2.3em;
+                    width: 2.3em;
+                    border-radius: 50%;
+                    @include setFlex(flex, center, center, initial);
+
+
+                    img{
+                        height: 0.8em;
+
+
+                    }
+                }
+            }
+
+            .profile-data{
+                .avatar{
+                    height: 5em;
+                    width: 5em;
+                    border-radius: 50%;
+                    margin: 0 auto;
+                    margin-top: 1.5em;
+                    overflow: hidden;
+                }
+
+                .name-data{
+                    margin-top: 1em;
+                    text-align: center;
+                    color: $background-white;
+
+                    .fullname{
+                        font-size: 1.3em;
+                        font-weight: 600;
+                        text-transform: capitalize;
+
+                    }
+
+                    .job-title{
+                        display: block;
+                        margin-top: 0.3em;
+                        font-size: 0.95em;
+                        color: rgba(255, 255, 255, 0.6);
+
+                        &::first-letter{
+                            text-transform: capitalize;
+                        }
+                    }
+                }
+            }
         }
     }
 }
