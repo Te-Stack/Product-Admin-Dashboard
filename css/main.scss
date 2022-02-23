@@ -517,9 +517,36 @@ body{
                                         width: 2px;
                                         background: linear-gradient(0deg, $light-green,$dark-blue);
                                         position: absolute;
-                                        right: 50%;
+                                        right: 45%;
                                         top: 3.5em;
 
+                                        &::before{
+                                            content: "";
+                                            height: 0.55em;
+                                            width: 0.55em;
+                                            display: block;
+                                            border-radius: 50%;
+                                            background-color: $dark-blue;
+                                            position: absolute;
+                                            top: 0;
+                                            left: 50%;
+                                            transform: translate(-50%, 0);
+                                            z-index: 99;
+                                        }
+                                        &::after{
+                                            content: "";
+                                            height: 1.44em;
+                                            width: 1.44em;
+                                            display: block;
+                                            border-radius: 50%;
+                                            background-color: transparent;
+                                            border: 1px solid rgba(1,86,91,0.45);
+                                            position: absolute;
+                                            top: -0.4em;
+                                            left: 50%;
+                                            transform: translate(-50%, 0);
+                                            z-index: 99;
+                                        }
                                         
                                     }
                                 }
