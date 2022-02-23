@@ -647,5 +647,25 @@ body {
 .wrapper .content .profile-area .profile-data .name-data .job-title::first-letter {
   text-transform: capitalize;
 }
+.wrapper .content .profile-area .profile-data .edit-btn {
+  margin-top: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: initial;
+  background-color: #fafafa;
+  padding: 12px 45px;
+  border-radius: 25px;
+  box-shadow: 0 10px 18px rgba(0, 0, 0, 0.1);
+}
+.wrapper .content .profile-area .profile-data .edit-btn img {
+  height: 1.3em;
+}
+.wrapper .content .profile-area .profile-data .edit-btn span {
+  text-transform: capitalize;
+  font-weight: 600;
+  color: #01565b;
+  margin-left: 0.7em;
+}
 
 /*# sourceMappingURL=main.css.map */
