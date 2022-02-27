@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev":"vite",
+    "build":"vite build",
     "watch-sass":"sass -w css/main.scss css/main.css"
   },
   "author": "Quincy Oghenetejiri",
