@@ -11,7 +11,7 @@
 
 ## About the Project
 
-> A Productivity Admin Dashboard Created with SCSS and Vite to spin up the local server.
+> A Static Productivity Admin Dashboard created with SCSS and Vite to spin up the local server.(Desktop View)
 
 ## Author
 
